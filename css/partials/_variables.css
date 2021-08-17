@@ -24,5 +24,5 @@ html, body{
    
 
     /* font family variables. */ 
-    --roboto: 'Roboto', regular;
+    --roboto: 'Fira Code', monospace;
 } 
