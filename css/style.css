@@ -173,7 +173,7 @@
 /* Services Area */ 
 
 .site-main .services-area{
-    padding: 7rem 2rem;
+    padding: 7rem 0;
 }
 
 .site-main .services-area .services-title{
@@ -188,7 +188,7 @@
     background: rgba(248, 252, 253, 0.973);
     padding: 2rem 0;
     width: 16rem;
-    margin: 5rem .5rem;
+    margin: auto;
     transition: box-shadow .7s ease;
 }
 
