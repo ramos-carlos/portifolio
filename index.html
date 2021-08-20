@@ -18,6 +18,9 @@
     <!--  Magnific Popup css -->
     <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
 
+    <!-- css aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
     <!--  Owl-carousel css -->
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
@@ -32,6 +35,9 @@
 
     <!-- Favicon -->
     <link rel="icon" href="img/banner/banner.svg">
+
+    <!-- js aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 
@@ -93,7 +99,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 banner-image">
-                        <img src="./img/banner/banner.svg" alt="banner-img" class="img-fluid">
+                        <img data-aos="fade-down-left" data-aos-duration="1500" src="./img/banner/banner.svg" alt="banner-img" class="img-fluid">
                     </div>
                 </div>
             </div>
@@ -107,7 +113,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
                         <div class="about-image">
-                            <img src="./img/about-us.png" alt="About us" class="img-fluid">
+                            <img data-aos="fade-down-right" data-aos-duration="1500"  src="./img/about-us.png" alt="About us" class="img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12 about-title">
@@ -363,6 +369,11 @@
 
     <!--  custom js file  -->
     <script src="./js/main.js"></script>
+
+    <!-- aos -->
+    <script>
+        AOS.init();
+    </script>
 
 
 </body>
