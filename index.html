@@ -1,385 +1,350 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carlos Ramos — Desenvolvedor de Software</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- ===================== NAV ===================== -->
+    <nav class="navbar-nb">
+      <a href="#" class="logo">Carlos<span>Ramos</span></a>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portifólio | Carlos Ramos - Desenvolvedor de Software</title>
-
-
-    <!--  Bootstrap css -->
-    <link rel="stylesheet" href="./css/bootstrap.min.css">
-
-    <!--  Font awesome icons  -->
-    <link rel="stylesheet" href="./css/all.min.css">
-
-
-    <!--  Magnific Popup css -->
-    <link rel="stylesheet" href="./vendor/Magnific-Popup/dist/magnific-popup.css">
-
-    <!-- css aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
-    <!--  Owl-carousel css -->
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css">
-    <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.theme.default.min.css">
-
-
-    <!--  custom css -->
-    <link rel="stylesheet" href="./css/style.css">
-
-    <!--  Responsive css -->
-    <link rel="stylesheet" href="./css/responsive.css">
-
-    <!-- Favicon -->
-    <link rel="icon" href="img/banner/banner.svg">
-
-    <!-- js aos -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-</head>
-
-<body>
-
-
-    <!--  ======================= cabeçalho ============================== -->
-
-    <header class="header_area">
-        <div class="main-menu">
-            <nav class="navbar navbar-expand-lg navbar-light">
-                <a class="navbar-brand title-h1" href="#">Portifólio
-                    <!--<img src="./img/logo.png" alt="logo">-->
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <div class="mr-auto"></div>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#sobre-area">Sobre</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#servicos-area">Serviços</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#projeto-area">Projetos</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero-left">
+        <span class="hero-eyebrow">✦ Disponível para projetos</span>
+        <h1 class="hero-name">
+          Olá,<br />
+          eu sou<br />
+          <span class="highlight">Carlos</span>
+          <span
+            class="highlight"
+            style="transform: rotate(0.5deg); margin-top: 0.3rem"
+            >Ramos.</span
+          >
+        </h1>
+        <p class="hero-role">Desenvolvedor de Software</p>
+        <div class="hero-actions">
+          <a
+            href="https://www.linkedin.com/in/carlos-ramos-746b521a0/"
+            target="_blank"
+            class="btn-nb"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="curriculo/Curriculo_Carlos_Ramos.pdf"
+            download
+            class="btn-nb secondary"
+          >
+            <i class="fas fa-file-arrow-down"></i> Currículo
+          </a>
+          <a
+            href="https://github.com/ramos-carlos"
+            target="_blank"
+            class="btn-nb secondary"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
         </div>
-    </header>
-
-    <!--  ======================= fim cabeçalho ============================== -->
-
-    <!--  ======================= main ================================ -->
-    <main class="site-main">
-
-
-        <!--  ======================= banner =======================  -->
-        <section class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12 site-title">
-                        <h3 class="title-text">Olá, eu sou o</h3>
-                        <h1 class="title-text text-uppercase">Carlos Ramos</h1>
-                        <h4 class="title-text text-uppercase">Desenvolvedor de Software</h4>
-                        <div class="site-buttons">
-                            <div class="d-flex flex-row flex-wrap">
-                                <a href="https://www.linkedin.com/in/carlos-ramos-746b521a0/" target="_blank"><button
-                                        type="button" class="btn button primary-button text-uppercase">
-                                        <i class="fab fa-linkedin"></i>
-                                        LinkedIn
-                                    </button><a></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 banner-image">
-                        <img data-aos="fade-down-left" data-aos-duration="2000" src="./img/banner/banner.svg"
-                            alt="banner-img" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--  ======================= fim / banner ======================= -->
-
-        <!--  ========================= sobre ==========================  -->
-
-        <section class="about-area" id="sobre-area">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                        <div class="about-image">
-                            <img data-aos="fade-down-right" data-aos-duration="2000" src="./img/about-us.png"
-                                alt="About us" class="img-fluid">
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-12 about-title">
-                        <h2 class="text-uppercase pt-5">
-                            <span>Sobre mim</span>
-                        </h2>
-                        <div class="paragraph py-4 w-75">
-                            <p class="para">
-                                Sou Desenvolvedor e Arquiteto de Software, com experiência em Java (Spring Boot), Angular, PHP, JavaScript e MySQL.
-                                Tenho base sólida em arquitetura de sistemas, orientação a objetos, boas práticas de desenvolvimento e integração entre aplicações front-end e back-end.
-                            </p>
-                            <p class="para">
-                                Graduação em Análise e Desenvolvimento de Sistemas (2017).
-                                Pós-graduação em Arquitetura de Software em Java (em andamento).
-                            </p>
-                        </div>
-                        <a href="https://www.linkedin.com/in/carlos-ramos-746b521a0/" target="_blank"><button
-                                type="button" class="btn button primary-button text-uppercase">
-                                <i class="fab fa-linkedin"></i>
-                                LinkedIn</button></a>
-                        <a href="curriculo/Curriculo_Carlos_Ramos.pdf" download="Curriculo_Carlos_Ramos" target="_blank"><button type="button"
-                                class="btn button primary-button text-uppercase">
-                                <i class="fas fa-file-download"></i>
-                                Currículo</button></a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!--  ========================= fim / sobre ==========================  -->
-
-        <!-- ============================ serviços =============================  -->
-
-        <!--<section class="services-area" id="servicos-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center services-title">
-                        <h1 class="text-uppercase title-text">Serviços</h1>
-                        <p class="para">
-                            Dedicação e Compromisso sempre!
-                        </p>
-                    </div>
-                </div>
-                <div class="container services-list">
-                    <div class="row">
-                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
-                            class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s1.png" alt="Services-1">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Web developer</h5>
-                                    <p class="card-text text-secondary">
-                                        Desenvolvimento de sites profissionais, sistemas web,
-                                        blogs e lojas virtuais.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
-                            class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s2.png" alt="Services-2">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">ux/ui Desing</h5>
-                                    <p class="card-text text-secondary">
-                                        Desenhos de layouts que se adequam ao seu negócio de forma
-                                        profissional e fiel no desenvolvimento.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
-                            class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s3.png" alt="Services-3">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Sites Responsivos</h5>
-                                    <p class="card-text text-secondary">
-                                        Criação de Sites responsivos para a
-                                        melhor visualização em todas as resoluções.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000"
-                            class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="services">
-                                <div class="sevices-img text-center py-4">
-                                    <img src="./img/services/s4.png" alt="Services-4">
-                                </div>
-                                <div class="card-body text-center">
-                                    <h5 class="card-title text-uppercase font-roboto">Código Semâtico</h5>
-                                    <p class="card-text text-secondary">
-                                        Estratégias para seu negócio,
-                                        fazendo com que seu site apareça cada vez
-                                        melhor nas buscas.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-
-        <!--  ====================== fim / serviços =============================  -->
-
-        <!--  ======================= projeto =============================  -->
-
-        <!--<section class="project-area" id="projeto-area">
-            <div class="container">
-                <div class="project-title pb-5">
-                    <h1 class="text-uppercase title-h1">Projetos</h1>
-                </div>
-
-                <div class="row grid">
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item latest">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="https://ramos-carlos.github.io/projeto-finans/" target="_blank">
-                                    <img src="./img/portfolio/finans.png" alt="portfolio-1" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Finans</h4>
-                                <span class="text-secondary">Finans é uma ferramenta online que vai facilitar
-                                    sua vida financeira.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="https://ramos-carlos.github.io/projeto-spotify/" target="_blank">
-                                    <img src="./img/portfolio/spotify.jpg" alt="portfolio-2" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Spotify</h4>
-                                <span class="text-secondary">Um clone do Spotify, realizado apenas com
-                                    HTML, CSS e Bootstrap.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item popular">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="https://ramos-carlos.github.io/projeto-starbucks/" target="_blank">
-                                    <img src="./img/portfolio/starbucks.jpg" alt="portfolio-3" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Starbucks</h4>
-                                <span class="text-secondary">Landing page simples, criado com
-                                    HTML, CSS e Javascript.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="./img/portfolio/cafe.gif" alt="portfolio-4" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Em breve</h4>
-                                <span class="text-secondary">Pegue um café e espere um pouco,
-                                    estamos desenvolvendo o projeto.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item upcoming">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="./img/portfolio/cafe.gif" alt="portfolio-5" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Em breve</h4>
-                                <span class="text-secondary">Pegue um café e espere um pouco,
-                                    estamos desenvolvendo o projeto.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 element-item following">
-                        <div class="our-project">
-                            <div class="img">
-                                <a href="#">
-                                    <img src="./img/portfolio/cafe.gif" alt="portfolio-6" class="img-fluid">
-                                </a>
-                            </div>
-                            <div class="title py-4">
-                                <h4 class="text-uppercase">Em breve</h4>
-                                <span class="text-secondary">Pegue um café e espere um pouco,
-                                    estamos desenvolvendo o projeto.</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
-
-        <!--  ======================= fim / projeto ============================  -->
-
-    </main>
-    <!--  ======================= contato ================================ -->
-
-    <footer class="footer-area">
-        <div class="container">
-            <h1 class="text-uppercase text-center title-h1 mt-5 mb-5">Hello World!
-                <i data-aos="zoom-in" data-aos-duration="3000" class="fas fa-globe-americas text-success"></i>
-            </h1>
-            <div class="">
-                <div class="social text-center">
-                    <h5 class="text-uppercase">Se você deseja bater um papo comigo, não hesite em me enviar uma
-                        mensagem.</h5>
-                    <a href="https://api.whatsapp.com/send?phone=5543996021880" target="_blank"><i
-                            class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.linkedin.com/in/carlos-ramos-746b521a0/" target="_blank"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/ramos-carlos" target="_blank"><i class="fab fa-github"></i></a>
-                </div>
-                <div class="copyrights text-center">
-                    <p class="para">
-                        By
-                        <a href="#"><span style="color: var(--primary-color);">Carlos Ramos</span></a>
-                    </p>
-                </div>
-            </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-avatar-box">
+          <div class="hero-avatar-placeholder">
+            <img
+              src="./img/banner/banner-image.png"
+              alt="Carlos Ramos"
+              class="hero-avatar"
+            />
+          </div>
+          <div class="hero-badge">
+            <i class="fas fa-code"></i> Dev & Arquiteto
+          </div>
         </div>
+      </div>
+    </section>
+
+    <!-- ===================== ABOUT ===================== -->
+    <section class="about" id="sobre">
+      <div class="about-content">
+        <span class="section-label">// Sobre mim</span>
+        <h2 class="section-title">Quem<br />sou eu?</h2>
+        <p class="about-text">
+          Sou Desenvolvedor e Arquiteto de Software com experiência em Java,
+          Spring Boot, Angular, PHP, JavaScript e MySQL. Tenho base sólida em
+          arquitetura de sistemas, orientação à objetos e boas práticas de
+          desenvolvimento.
+        </p>
+        <p class="about-text">
+          Graduado em Análise e Desenvolvimento de Sistemas e Pós-graduado em
+          Arquitetura de Software em Java.
+        </p>
+        <p class="about-text">
+          Estou sempre em busca de construir sistemas robustos e escaláveis.
+        </p>
+        <div class="about-stats">
+          <div class="stat-box">
+            <span class="number">8+</span>
+            <span class="label">Anos de XP</span>
+          </div>
+          <div class="stat-box">
+            <span class="number">∞</span>
+            <span class="label">Café/dia</span>
+          </div>
+          <div class="stat-box">
+            <span class="number">100%</span>
+            <span class="label">Dedicação</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-side">
+        <span
+          class="section-label"
+          style="background: var(--black); color: var(--green)"
+          >// Tech Stack</span
+        >
+        <h3
+          style="
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: -1px;
+            margin-bottom: 0.5rem;
+          "
+        >
+          Ferramentas<br />& Linguagens
+        </h3>
+        <div class="tech-grid">
+          <div class="tech-tag">Java</div>
+          <div class="tech-tag">Spring Boot</div>
+          <div class="tech-tag">Angular</div>
+          <div class="tech-tag">JavaScript</div>
+          <div class="tech-tag">PHP</div>
+          <div class="tech-tag">MySQL</div>
+          <div class="tech-tag">HTML/CSS</div>
+          <div class="tech-tag">Git</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PROJECTS ===================== -->
+    <section class="projects" id="projetos">
+      <div class="projects-header">
+        <div>
+          <span class="section-label">// Projetos</span>
+          <h2 class="section-title">O que<br />eu construí.</h2>
+        </div>
+        <a
+          href="https://github.com/ramos-carlos"
+          target="_blank"
+          class="btn-nb"
+        >
+          Ver todos <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Projeto 1 -->
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="./img/portfolio/finans.png"
+            alt="Finans"
+          />
+          <div class="project-info">
+            <span class="project-num">01 — Finanças</span>
+            <h3 class="project-name">Finans</h3>
+            <p class="project-desc">
+              Ferramenta online para facilitar a vida financeira. Interface
+              limpa e foco na usabilidade.
+            </p>
+            <a
+              href="https://ramos-carlos.github.io/projeto-finans/"
+              target="_blank"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 2 -->
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="./img/portfolio/spotify.jpg"
+            alt="Spotify Clone"
+          />
+          <div class="project-info">
+            <span class="project-num">02 — Clone</span>
+            <h3 class="project-name">Spotify Clone</h3>
+            <p class="project-desc">
+              Clone do Spotify feito com HTML, CSS e Bootstrap. Fidelidade
+              visual ao produto original.
+            </p>
+            <a
+              href="https://ramos-carlos.github.io/projeto-spotify/"
+              target="_blank"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>
+          </div>
+        </div>
+
+        <!-- Projeto 3 -->
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="./img/portfolio/starbucks.jpg"
+            alt="Starbucks Landing"
+          />
+          <div class="project-info">
+            <span class="project-num">03 — Landing Page</span>
+            <h3 class="project-name">Starbucks</h3>
+            <p class="project-desc">
+              Landing page criada com HTML, CSS e JavaScript. Animações suaves e
+              layout responsivo.
+            </p>
+            <a
+              href="https://ramos-carlos.github.io/projeto-starbucks/"
+              target="_blank"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>
+          </div>
+        </div>
+
+        <!-- WIP Cards -->
+        <div class="project-card">
+          <img
+            class="project-img"
+            src="./img/portfolio/barberagendas.png"
+            alt="Barber Agenda"
+          />
+          <div class="project-info">
+            <span class="project-num">04 — Sistema de Agendamento para Barbearia</span>
+            <h3 class="project-name">Barber Agenda</h3>
+            <p class="project-desc">
+              Plataforma SaaS multi-tenant para gestão de agendamentos em barbearias, desenvolvida com Java 17, Spring Boot 3, Angular 17, MySQL, Redis, JWT e Docker.
+            </p>
+            <!--<a
+              href="https://ramos-carlos.github.io/projeto-starbucks/"
+              target="_blank"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>-->
+          </div>
+        </div>
+
+
+        <div class="project-card">
+          <img
+            class="project-img bot"
+            src="./img/portfolio/bot_mobile.png"
+            alt="Bot de Ofertas + WhatsApp"
+          />
+          <div class="project-info">
+            <span class="project-num">05 — Bot de Ofertas + WhatsApp</span>
+            <h3 class="project-name">Bot de Ofertas + WhatsApp</h3>
+            <p class="project-desc">
+              Plataforma de automação para marketing de afiliados desenvolvida com Python, FastAPI, PostgreSQL e Docker, integrada à Evolution API e a uma API GraphQL.
+            </p>
+            <!--<a
+              href="https://ramos-carlos.github.io/projeto-starbucks/"
+              target="_blank"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>-->
+          </div>
+        </div>
+
+        <div class="project-card project-wip">
+          <div class="project-img-placeholder">☕ Em desenvolvimento...</div>
+          <div class="project-info">
+            <span class="project-num">06 — Em breve</span>
+            <h3 class="project-name">Novo Projeto</h3>
+            <p class="project-desc">
+              Pegue um café e espere um pouco, estamos trabalhando em algo novo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== CONTACT ===================== -->
+    <footer class="contact" id="contato">
+      <div>
+        <h2 class="contact-title">
+          Bora <span class="accent">conversar</span> sobre seu projeto?
+        </h2>
+        <p class="contact-text">
+          Se você quer construir algo incrível, tem uma ideia maluca ou só quer
+          bater um papo sobre tecnologia — pode me chamar. Respondo rápido.
+        </p>
+        <div class="social-links">
+          <a
+            href="https://api.whatsapp.com/send?phone=5543996021880"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-whatsapp"></i> WhatsApp
+          </a>
+          <a
+            href="https://www.linkedin.com/in/carlos-ramos-746b521a0/"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a
+            href="https://github.com/ramos-carlos"
+            target="_blank"
+            class="social-link"
+          >
+            <i class="fab fa-github"></i> GitHub
+          </a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <div class="marquee-box">
+          <span class="marquee-text">
+            ✦ DISPONÍVEL PARA FREELANCE &nbsp;&nbsp;&nbsp; ✦ JAVA DEVELOPER
+            &nbsp;&nbsp;&nbsp; ✦ ARQUITETO DE SOFTWARE &nbsp;&nbsp;&nbsp; ✦ FULL
+            STACK &nbsp;&nbsp;&nbsp; ✦ DISPONÍVEL PARA FREELANCE
+            &nbsp;&nbsp;&nbsp; ✦ JAVA DEVELOPER &nbsp;&nbsp;&nbsp; ✦ ARQUITETO
+            DE SOFTWARE &nbsp;&nbsp;&nbsp; ✦ FULL STACK &nbsp;&nbsp;&nbsp;
+          </span>
+        </div>
+      </div>
     </footer>
 
-    <!--  Jquery js file  -->
-    <script src="./js/jquery.3.4.1.js"></script>
-
-    <!--  Bootstrap js file  -->
-    <script src="./js/bootstrap.min.js"></script>
-
-    <!--  isotope js library  -->
-    <script src="./vendor/isotope/isotope.min.js"></script>
-
-    <!--  Magnific popup script file  -->
-    <script src="./vendor/Magnific-Popup/dist/jquery.magnific-popup.min.js"></script>
-
-    <!--  Owl-carousel js file  -->
-    <script src="./vendor/owl-carousel/js/owl.carousel.min.js"></script>
-
-    <!--  custom js file  -->
-    <script src="./js/main.js"></script>
-
-    <!-- aos -->
-    <script>
-        AOS.init();
-    </script>
-
-
-</body>
-
+    <div class="footer-bar">
+      <p>© 2026 Carlos Ramos — Todos os direitos reservados</p>
+      <p>Feito com ☕ + código</p>
+    </div>
+  </body>
 </html>
