@@ -3,7 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Carlos Ramos — Desenvolvedor de Software</title>
+    <title>Carlos Ramos — Desenvolvedor Backend Java</title>
+    <meta
+      name="description"
+      content="Carlos Ramos, desenvolvedor Backend Java (Spring Boot, APIs REST, Angular). Projetos em produção e aberto a oportunidades remotas."
+    />
+    <meta property="og:title" content="Carlos Ramos — Desenvolvedor Backend Java" />
+    <meta
+      property="og:description"
+      content="Java, Spring Boot, APIs REST e Angular. Projetos em produção e aberto a oportunidades remotas."
+    />
+    <meta property="og:type" content="website" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,7 +40,7 @@
     <!-- ===================== HERO ===================== -->
     <section class="hero">
       <div class="hero-left">
-        <span class="hero-eyebrow">✦ Disponível para projetos</span>
+        <span class="hero-eyebrow">✦ Aberto a vagas remotas</span>
         <h1 class="hero-name">
           Olá,<br />
           eu sou<br />
@@ -41,7 +51,7 @@
             >Ramos.</span
           >
         </h1>
-        <p class="hero-role">Desenvolvedor de Software</p>
+        <p class="hero-role">Desenvolvedor Backend Java</p>
         <div class="hero-actions">
           <a
             href="https://www.linkedin.com/in/carlos-ramos-746b521a0/"
@@ -88,22 +98,25 @@
         <span class="section-label">// Sobre mim</span>
         <h2 class="section-title">Quem<br />sou eu?</h2>
         <p class="about-text">
-          Sou desenvolvedor Backend Java, hoje Engenheiro de Software na JGPTecnologia. Fora do trabalho, 
-          construo produtos completos, como um SaaS multi-tenant de agendamentos e uma plataforma de automação com WhatsApp.
-          Pós-graduado em Arquitetura de Software em Java, com background em suporte técnico e comércio exterior.
+          Sou desenvolvedor Backend Java e atuo como Engenheiro de Software na JGPTecnologia (meio período, remoto).
+          Fora de lá, construo e mantenho produtos completos: um SaaS multi-tenant de agendamentos para barbearias
+          e uma plataforma de automação com WhatsApp. Pós-graduação em Arquitetura de Software em Java, com
+          background em suporte técnico, onde aprendi a ler logs, depurar integrações e diagnosticar incidentes.
         </p>
         <div class="about-stats">
           <div class="stat-box">
             <span class="number">3</span>
-            <span class="label">Produtos no ar</span>
+            <span class="label">Projetos no ar</span>
           </div>
+
           <div class="stat-box">
-            <span class="number">[N]</span>
-            <span class="label">Tenants</span>
+            <span class="number">1.000+</span>
+            <span class="label">Agendamentos no SaaS</span>
           </div>
+
           <div class="stat-box">
-            <span class="number">100%</span>
-            <span class="label">Dedicação</span>
+            <span class="number">3.800+</span>
+            <span class="label">Mensagens enviadas pelo bot</span>
           </div>
         </div>
       </div>
@@ -122,7 +135,9 @@
           <div class="tech-tag">Spring Boot</div>
           <div class="tech-tag">Spring Security</div>
           <div class="tech-tag">JPA/Hibernate</div>
+          <div class="tech-tag">APIs REST + JWT</div>
           <div class="tech-tag">Angular</div>
+          <div class="tech-tag">React</div>
           <div class="tech-tag">TypeScript</div>
           <div class="tech-tag">Python/FastAPI</div>
           <div class="tech-tag">MySQL</div>
@@ -157,13 +172,17 @@
           <img
             class="project-img"
             src="./img/portfolio/barberagendas.png"
-            alt="Barber Agenda"
+            alt="Suagenda"
           />
           <div class="project-info">
             <span class="project-num">01 — Barbearia</span>
-            <h3 class="project-name">Barber Agenda</h3>
+            <h3 class="project-name">Suagenda</h3>
             <p class="project-desc">
-              Plataforma SaaS multi-tenant para gestão de agendamentos em barbearias, desenvolvida com Java 17, Spring Boot 3, Angular 17, MySQL, Redis, JWT e Docker.
+              Plataforma SaaS multi-tenant para gestão de agendamentos em barbearias, em produção com mais de 1.000 agendamentos registrados.
+              Autenticação JWT, controle de acesso por roles e isolamento de dados por tenant.
+            </p>
+            <p class="project-desc">
+              Java 17, Spring Boot 3, Angular 17, MySQL, Redis e Docker.
             </p>
             <a
               href="https://www.barberagenda.tech/"
@@ -186,7 +205,11 @@
             <span class="project-num">02 — Automação</span>
             <h3 class="project-name">Bot de Ofertas</h3>
             <p class="project-desc">
-              Plataforma de automação para marketing de afiliados desenvolvida com Python, FastAPI, PostgreSQL e Docker, integrada à Evolution API e a uma API GraphQL.
+              Plataforma de automação para marketing de afiliados: gestão de campanhas, importação de produtos
+              (catálogo com 674 itens) e sincronização automática de preços, com mais de 3.800 mensagens enviadas no WhatsApp.
+            </p>
+            <p class="project-desc">
+              Python, FastAPI, PostgreSQL e Docker, integrada à Evolution API e a uma API GraphQL.
             </p>
           </div>
         </div>
@@ -202,9 +225,20 @@
             <span class="project-num">03 — ERP</span>
             <h3 class="project-name">SysFlex | ERP</h3>
             <p class="project-desc">
-              Java 17 + Spring Boot 3, React + TypeScript, PostgreSQL,
-              PDV rápido & Faturamento B2B: Leitura ágil para a fila do caixa e gestão de contas a receber para restaurantes e clientes mensalistas.
+              Sistema de gestão com PDV e faturamento B2B para pequenos negócios: leitura ágil para a fila do caixa
+              e controle de contas a receber de clientes mensalistas.
             </p>
+            <p class="project-desc">
+              Java 17, Spring Boot 3, React, TypeScript e PostgreSQL.
+            </p>
+            <a
+              href="https://sis-meet-house.vercel.app"
+              target="_blank"
+              rel="noopener"
+              class="project-link"
+            >
+              Ver projeto →
+            </a>
           </div>
         </div>
         
@@ -215,13 +249,16 @@
     <footer class="contact" id="contato">
       <div>
         <h2 class="contact-title">
-          Bora <span class="accent">conversar</span> sobre seu projeto?
+          Aberto a <span class="accent">oportunidades</span>
         </h2>
         <p class="contact-text">
-          Se você quer construir algo incrível, tem uma ideia maluca ou só quer
-          bater um papo sobre tecnologia — pode me chamar. Respondo rápido.
+          Busco uma posição remota como Desenvolvedor Backend Java ou Full Stack Java/Angular.
+          Se você tem uma vaga ou quer conversar sobre tecnologia, pode me chamar. Respondo rápido.
         </p>
         <div class="social-links">
+          <a href="mailto:caarloos1997@hotmail.com" class="social-link">
+            <i class="fas fa-envelope"></i> E-mail
+          </a>
           <a
             href="https://api.whatsapp.com/send?phone=5543996021880"
             target="_blank"
@@ -248,11 +285,7 @@
       <div class="contact-right">
         <div class="marquee-box">
           <span class="marquee-text">
-            ✦ DISPONÍVEL PARA FREELANCE   ✦ JAVA DEVELOPER
-              ✦ ARQUITETO DE SOFTWARE   ✦ FULL
-            STACK   ✦ DISPONÍVEL PARA FREELANCE
-              ✦ JAVA DEVELOPER   ✦ ARQUITETO
-            DE SOFTWARE   ✦ FULL STACK  
+            ✦ DESENVOLVEDOR BACKEND JAVA
           </span>
         </div>
       </div>
